@@ -57,11 +57,11 @@
 }
 // [program no: 7]
 {
-    var ch = ("K");
-if(ch > "a" && ch < "z" )
-    console.log("This character is a alphabet");
+    var ch = ("K")
+if(ch >= "a" && ch <= "z" )
+    console.log("This character is a small alphabet");
 else if (ch > "A" && ch < "Z")
-    console.log("This character is a alphabet");
+    console.log("This character is a capital alphabet");
 else
     console.log("This character is not a alphabet");   
 }
@@ -78,16 +78,6 @@ else if(vowel=="o")
      console.log("Your entered word is vowel");
 else if(vowel=="u")
      console.log("Your entered word is vowel");
-else if(vowel=="A")
-     console.log("Your entered word is vowel");
-else if(vowel=="E")
-     console.log("Your entered word is vowel");
-else if(vowel=="I")
-     console.log("Your entered word is vowel");
-else if(vowel=="O")
-     console.log("Your entered word is vowel");
-else if(vowel=="U")
-     console.log("Your entered word is vowel");
 else
     console.log("Your entered word is not a vowel");
 }
@@ -95,7 +85,7 @@ else
 {
     var ch = ("@")
 if (ch > "a" && ch < "z")
-    console.log("Your entered word is alphabet");
+    console.log("Your entered word is a small alphabet character");
 else if (ch > "A" && ch < "Z")
     console.log("Your entered word is alphabet");
 else if (ch > "1" && ch < "9")
@@ -160,9 +150,9 @@ else if (ch > "a" && ch < "z")
 // then we incur a loss, and if it is more than 10,000, we make a profit."
 {   
     var money=5000 ;
-    if (money < 10000)
+    if (money < 3500)
        console.log("We got Loss");
-    if (money > 10000)
+    else (money > 5500)
        console.log("We got Profit");
 }
 // [program no: 19]
@@ -184,3 +174,12 @@ else if (ch > "a" && ch < "z")
     else if (Totalnumber < "40%" )
        console.log("Failed");
 }
+
+
+
+
+
+
+
+
+
